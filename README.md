@@ -3,11 +3,16 @@ Este es el primer proyecto de desarrollo web grupal
 
 
 # Correr en local
-## Linux / MacOS
+
+## Activar el entorno virtul
+### Linux / MacOS
  	code source venv/bin/activate
 
-## Windows
-### PowerShell
+### Windows
+#### PowerShell
  	code PS C:\> venv\Scripts\Activate.ps1
-### CMD
+#### CMD
  	code C:\> venv\Scripts\activate.bat
+
+## Correr la app
+    code flask --app main --debug run
